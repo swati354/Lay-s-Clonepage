@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+.navbar{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: center;
+        /* font-family: "19px MarkOT-Bold", sans-serif; */
+        font-family: 'MarkOT', sans-serif;
+        font-weight: normal;
+        letter-spacing: -1px;
+        
+       
+
+        
+}
+a:hover {
+  background-color: #EE3124;
+}
+
+
+nav{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE600 ;
+    height: 92px;
+    
+    
+    
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+   
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+    
+}
+div {
+    width: 1170px;
+  
+    padding: 40px;
+   display: block;
+    margin: auto;
+     
+  }
+
+  
+body{
+    background-color: #fbb517;
+}
+
+.products{
+    position: relative;
+  text-align: left;
+  color: white;
+  font-family: 'MarkOT', sans-serif;
+  font-size: 85px;
+  font-weight: normal;
+  justify-content: center;
+    align-items: center;
+}
+
+.images{
+    font-size:0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left {
+    position: absolute;
+    top: 90px;
+    left: 165px;
+    
+  }
+
+  .column {
+    float: left;
+    /* width: 33.33%; */
+    width:306px;
+    height:336px;
+    padding: 0px;
+    font-size: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .column:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  
+  .row {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    /* left:0; */
+    width: 1000px;
+    height: 1000px;
+    font-size: 0px;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 3px solid #73AD21; */
+    /* float:left; */
+  }
+  .figcaption{
+    background-color: #fbb517;
+    color:white;
+    font-style:35px MarkOT-Bold,sans-serif;
+    padding:10px;
+    text-align:left;
+  }
+
+  .recipes{
+  position: relative;
+  text-align: left;
+  color: white;
+  font-family: 'MarkOT', sans-serif;
+  font-size: 85px;
+  font-weight: normal;
+  justify-content: center;
+  align-items: center;
+}
+
+.images2{
+    font-size:0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left2 {
+    position: absolute;
+    top: 60px;
+    left: 165px;
+    
+  }
+
+  .column2 {
+    float: left;
+    /* width: 33.33%; */
+    width:306px;
+    height:336px;
+    padding: 10px;
+    font-size: 0px;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column2:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  
+  /* Clearfix (clear floats) */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  
+  .row2 {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    /* left:0; */
+    width: 1000px;
+    height: 1000px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 3px solid #73AD21; */
+    /* float:left; */
+  }
+
+
+    
+   
+
+
+
+
